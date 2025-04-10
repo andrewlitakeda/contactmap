@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "contactmapanalyzer"
+version = "0.1.0"
+authors = [
+  { name="Your Name", email="you@example.com" }, # TODO: Replace with your details
+]
+description = "A Python package for calculating and analyzing protein contact maps from PDB files."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+dependencies = [
+    "pandas >= 1.0",
+    "biopython >= 1.7",
+    "xlsxwriter >= 1.0", # Needed for Excel export
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/contactmapanalyzer" # TODO: Replace with your GitHub repo URL
+"Bug Tracker" = "https://github.com/yourusername/contactmapanalyzer/issues" # TODO: Replace
