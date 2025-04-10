@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "contactmapanalyzer"
 version = "0.1.0"
 authors = [
-  { name="Your Name", email="you@example.com" }, # TODO: Replace with your details
+  { name="Your Name", email="..." }
 ]
 description = "A Python package for calculating and analyzing protein contact maps from PDB files."
 readme = "README.md"
@@ -25,5 +25,5 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/yourusername/contactmapanalyzer" # TODO: Replace with your GitHub repo URL
-"Bug Tracker" = "https://github.com/yourusername/contactmapanalyzer/issues" # TODO: Replace
+"Homepage" = "https://github.com/yourusername/contactmapanalyzer" 
+"Bug Tracker" = "https://github.com/yourusername/contactmapanalyzer/issues" 
