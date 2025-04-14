@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "contactmapanalyzer"
 version = "0.1.0"
 authors = [
-  { name="Your Name", email="..." }
+  { name="", email="..." }
 ]
 description = "A Python package for calculating and analyzing protein contact maps from PDB files."
 readme = "README.md"
